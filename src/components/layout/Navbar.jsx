@@ -44,16 +44,13 @@ const Navbar = () => {
                             </li>
 
                             <li className='navbar-navigation-link'>
-                                <NavLink to='/art'>Art</NavLink>
+                                <NavLink to='/art'>Projects</NavLink>
                             </li>
 
                             <li className='navbar-navigation-link'>
-                                <NavLink to='/collections'>Collections</NavLink>
+                                <NavLink to='/collections'>Qualifications</NavLink>
                             </li>
                             
-                            <li className='navbar-navigation-link'>
-                                <NavLink to='/about'>About</NavLink>
-                            </li>
                         </ul>
 
                         <div className='navbar-hamburger-button'>
