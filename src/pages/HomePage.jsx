@@ -1,11 +1,20 @@
 import PortfolioLayout from '../components/layout/PortfolioLayout'
+import HeroSection from '../components/page-sections/HeroSection'
 
 const HomePage = () => {
     return (
         <PortfolioLayout>
-            <div>
-                The quick brown fox jumps over the lazy dog.
-            </div>
+            <HeroSection />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            The quick brown fox jumps over the lazy dog.
+
         </PortfolioLayout>
     )
 }

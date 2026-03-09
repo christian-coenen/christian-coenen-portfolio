@@ -6,7 +6,7 @@ const PortfolioLayout = ({ children }) => {
         <div className='portfolio-layout'>
             <Navbar />
             <main className='portfolio-layout-content'>
-                { children }
+                {children}
             </main>
             <Footer />
         </div>
