@@ -1,7 +1,7 @@
 .navbar {
-    background: var(--color-background-navbar);
-    border-bottom: var(--border-navbar);
-    height: var(--height-navbar);
+    background: var(--color-surface-0);
+    border-bottom: var(--border-default);
+    height: 5rem;
     padding: 0 1rem;
 }
 
@@ -34,7 +34,7 @@
 
 .navbar-logo-text {
     color: var(--color-text-navbar-logo);
-    font-family: var(--font-family-brand);
+    font-family: var(--font-family-default);
     font-size: 1.2rem;
     font-weight: var(--font-weight-brand);
 }

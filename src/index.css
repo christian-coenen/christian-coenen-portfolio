@@ -1,0 +1,108 @@
+:root {
+    --color-surface-0: #FFFFFF;
+    --color-surface-1: #F9F9F9;
+
+    --color-background-navigation-default: #FFFFFF;
+    --color-background-navigation-current: #EBEBEB;
+    --color-background-navigation-hover: #E0E0E0;
+    --color-background-navigation-active: #D6D6D6;
+
+    --color-border-default: #EFEFEF;
+
+    --color-text-0: #000000;
+    --color-text-1: #3E4246;
+
+    --color-text-logo: var(--color-text-0);
+    --color-text-title: var(--color-text-0);
+    --color-text-heading: var(--color-text-0);
+    --color-text-subheading: var(--color-text-1);
+    --color-text-body: var(--color-text-2);
+    --color-text-ui: var(--color-text-3);
+
+    --border-default: 1px solid var(--color-border-default);
+
+    --border-radius-default: 5px;
+
+    --font-family-default: 'Inter', sans-serif;
+
+    --font-size-0: 1rem;
+    --font-size-1: 1.2rem;
+    /*
+    Add more font size variables later
+    --font-size-2: ;
+    --font-size-3: ;
+    */
+
+    --font-size-logo: var(--font-size-1);
+    /*
+    Add more font size variables later
+    --font-size-title: var();
+    --font-size-heading: var();
+    --font-size-subheading: var();
+    */
+    --font-size-body: var(--font-size-0);
+    --font-size-ui: var(--font-size-0);
+
+    --font-weight-default: 400;
+    --font-weight-logo: 700;
+
+    --line-height-default: 1.2;
+
+    --height-navbar: 5rem;
+    --height-drawer-navigation-item: 5rem;
+
+    --width-navbar-item-default: 8rem;
+    --width-navbar-item-mobile: 5rem;
+
+    --spacing-0: 0.25rem;
+    --spacing-1: 0.5rem;
+    --spacing-2: 0.75rem;
+    --spacing-3: 1rem;
+    --spacing-4: 1.25rem;
+    --spacing-5: 1.5rem;
+    --spacing-6: 1.75rem;
+    --spacing-7: 2rem;
+    --spacing-8: 5rem;
+    /* Add more spacing (padding) variables later */
+
+    --spacing-control-vertical: var(--spacing-1);
+    --spacing-control-horizontal: var(--spacing-2);
+    --spacing-navbar-horizontal: var(--spacing-3);
+    --spacing-drawer-navigation-horizontal: var(--spacing-7);
+
+    --transition-background: background-color 0.2s ease-in-out;
+    --transition-transform: transform 0.2s ease-in-out;
+    --transition-opacity: opacity 0.2s ease-in-out;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--color-surface-0);
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-default);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--color-text-ui);
+    font-size: var(--font-size-0);
+    text-decoration: underline;
+}
+
+button {
+    background: none;
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-0);
+}
+
+.lucide {
+    color: var(--color-icon-default);
+}
