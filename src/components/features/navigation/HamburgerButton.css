@@ -1,0 +1,22 @@
+.hamburger-button {
+    align-items: center;
+    border: none;
+    border-radius: var(--border-radius-default);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    transition: var(--transition-background);
+}
+
+.hamburger-button:hover {
+    background: var(--color-background-navigation-hover);
+}
+
+.hamburger-button:active {
+    background: var(--color-background-navigation-active);
+}
+
+.hamburger-button-icon {
+    color: var(--color-icon-default);
+}

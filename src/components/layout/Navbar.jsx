@@ -19,15 +19,12 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='navbar-inner'>
-                <div className='navbar-brand'>
-                    <Link to='/home' className='navbar-navigation-item-brand'>
-                        <BrandLogo />
-                        <span className='navbar-logo-text'>Christian Coenen</span>
-                    </Link>
-                </div>
+                <Link to='/home' className='navbar-logo'>
+                    <BrandLogo size={48} />
+                    <span className='navbar-logo-text'>Christian Coenen</span>
+                </Link>
 
-                {/* TODO: rename className below */}
-                <div className='navbar-right'>
+                <div className='navbar-actions'>
                     <div className='navbar-navigation'>
                         <ul className='navbar-navigation-list'>
                             <li className='navbar-navigation-link'>
@@ -35,7 +32,7 @@ const Navbar = () => {
                                     to='/home'
                                     className={({ isActive }) =>
                                         isActive
-                                            ? "navbar-navigation-link is-active"
+                                            ? "navbar-navigation-link current"
                                             : "navbar-navigation-link"
                                     }
                                 >
@@ -44,15 +41,29 @@ const Navbar = () => {
                             </li>
 
                             <li className='navbar-navigation-link'>
-                                <NavLink to='/art'>Art</NavLink>
+                                <NavLink
+                                    to='/projects'
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "navbar-navigation-link current"
+                                            : "navbar-navigation-link"
+                                    }
+                                >
+                                    Projecten
+                                </NavLink>
                             </li>
 
                             <li className='navbar-navigation-link'>
-                                <NavLink to='/collections'>Collections</NavLink>
-                            </li>
-                            
-                            <li className='navbar-navigation-link'>
-                                <NavLink to='/about'>About</NavLink>
+                                <NavLink
+                                    to='/qualifications'
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "navbar-navigation-link current"
+                                            : "navbar-navigation-link"
+                                    }
+                                >
+                                    Kwalificaties
+                                </NavLink>
                             </li>
                         </ul>
 
@@ -63,7 +74,6 @@ const Navbar = () => {
                             />
                         </div>
                     </div>
-
                 </div>
             </div>
 
