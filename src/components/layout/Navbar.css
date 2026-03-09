@@ -4,6 +4,8 @@
     height: var(--height-navbar);
     padding: 0 var(--spacing-navbar-horizontal);
     position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-inner {
