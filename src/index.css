@@ -11,6 +11,7 @@
     --color-background-navigation-active: #D6D6D6;
 
     --color-border-default: #EFEFEF;
+    --color-border-paragraph: #CFCFCF;
 
     --color-icon-default: #3E4246;
 
@@ -25,6 +26,7 @@
     --color-text-ui: var(--color-text-3);
 
     --border-default: 1px solid var(--color-border-default);
+    --border-paragraph: 1px solid var(--color-border-paragraph);
 
     --border-radius-default: 5px;
 
@@ -104,10 +106,21 @@ a {
     text-decoration: underline;
 }
 
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
 button {
     background: none;
     font-family: var(--font-family-default);
     font-size: var(--font-size-0);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
 }
 
 .lucide {
