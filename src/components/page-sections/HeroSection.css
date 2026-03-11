@@ -2,7 +2,7 @@
     align-items: center;
     background: var(--color-surface-1);
     display: flex;
-    height: calc(100dvh - var(--height-navbar));
+    height: calc(100svh - var(--height-navbar));
     justify-content: center;
     min-height: 25rem;
     padding: 1rem;
