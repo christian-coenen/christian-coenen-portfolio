@@ -1,4 +1,4 @@
-import ImageTemplate from '../../assets/images/illustration-template.jpg'
+import ImageTemplate from '../../../assets/images/illustration-template.jpg'
 
 const AboutIllustration = ({ size = 320 }) => {
     return (
