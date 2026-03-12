@@ -4,68 +4,53 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer-inner'>
-                <div className='footer-copyright'>
-                    <span className='footer-copyright-text'>Copyright © Christian Coenen, 2026</span>
+                <div className='footer-navigation'>
+
+                    <section className='footer-section'>
+                        <span className='footer-section-title'>Contact</span>
+
+                        <ul className='footer-list'>
+                            <li className='footer-list-item'>
+                                <a
+                                    className='footer-link'
+                                    href='https://www.linkedin.com/in/christian-coenen-cc'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    LinkedIn
+                                </a>
+                            </li>
+
+                            <li className='footer-list-item'>
+                                <a
+                                    className='footer-link'
+                                    href='mailto:christian300507@yahoo.com'
+                                >
+                                    christian300507@yahoo.com
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section className='footer-section'>
+                        <span className='footer-section-title'>Links</span>
+
+                        <ul className='footer-list'>
+                            <li className='footer-list-item'>
+                                <a
+                                    className='footer-link'
+                                    href='https://www.github.com/christian-coenen'
+                                >
+                                    GitHub
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
                 </div>
-                <div className='footer-credits'>
-                    <span className='footer-credits-text'>Gemaakt door Christian Coenen</span>
 
-                    <ul className='footer-links'>
-                        <li className='footer-link-item'>
-                            <a
-                                href='https://www.linkedin.com/in/christian-coenen-cc'
-                                title='LinkedIn'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                LinkedIn
-                            </a>
-                        </li>
-
-                        <li className='footer-link-item'>
-                            <a
-                                href='https://github.com/christian-coenen'
-                                title='GitHub'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                GitHub
-                            </a>
-                        </li>
-
-                        <li className='footer-link-item'>
-                            <a
-                                href='https://github.com/christian-coenen'
-                                title='GitHub'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                GitHub
-                            </a>
-                        </li>
-
-                        <li className='footer-link-item'>
-                            <a
-                                href='https://github.com/christian-coenen'
-                                title='GitHub'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                GitHub
-                            </a>
-                        </li>
-
-                        <li className='footer-link-item'>
-                            <a
-                                href='https://github.com/christian-coenen'
-                                title='GitHub'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                GitHub
-                            </a>
-                        </li>
-                    </ul>
+                <div className='footer-copyright'>
+                    <span className='footer-copyright-text'>Christian Coenen | Copyright © 2026</span>
                 </div>
             </div>
         </footer>

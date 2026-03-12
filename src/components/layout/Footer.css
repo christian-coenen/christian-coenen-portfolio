@@ -1,88 +1,63 @@
 .footer {
     background: var(--color-surface-0);
-    height: 18rem;
     padding: 1rem;
 }
 
-.footer-inner {
-    align-items: center;
+.footer-navigation {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+}
+
+.footer-section {
+    width: 100%;
+}
+
+.footer-section-title {
+    border-bottom: var(--border-default);
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+.footer-list-item {
+    padding: 1rem 0;
+}
+
+.footer-link {
+    color: var(--color-text-ui);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #0E4893;
+}
+
+.footer-link:active {
+    color: #34435D;
 }
 
 .footer-copyright {
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .footer-copyright-text {
-    display: flex;
     line-height: 2;
-    text-align: center;
 }
 
-.footer-credits {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.footer-credits-text {
-    display: flex;
-    line-height: 2;
-    text-align: center;
-}
-
-.footer-links {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 1rem;
-    max-width: 100%;
-}
-
-.footer-links > * {
-    position: relative;
-    padding: 0 1rem;
-}
-
-.footer-links > * + *::before {
-    background: #3E4246;
-    bottom: 25%;
-    content: '';
-    left: 0;
-    position: absolute;
-    top: 25%;
-    transform: translateX(-50%);
-    width: 1px;
-}
-
-.footer-link-item {
-    padding: 0.5rem;
-}
-
-.footer-link-item a {
-    border-radius: var(--border-radius-default);
-    color: var(--color-text-ui);
-    padding: 0.5rem;
-    text-decoration: none;
-    transition: var(--transition-background);
-}
-
-.footer-link-item a:hover {
-    background: var(--color-background-control-hover);
-}
-
-.footer-link-item a:active {
-    background: var(--color-background-control-active);
-}
-
-@media (max-width: 400px) {
-    .footer-copyright {
-        padding: 2rem 1rem;
+@media (max-width: 600px) {
+    .footer-navigation {
+        grid-template-columns: 1fr;
     }
 }
