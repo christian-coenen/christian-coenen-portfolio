@@ -52,7 +52,7 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
 
                     <li className='drawer-navigation-link'>
                         <NavLink
-                            to='/art'
+                            to='/projects'
                             className={({ isActive }) =>
                                 isActive
                                     ? "drawer-navigation-link current"
@@ -60,13 +60,13 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
                             }
                             onClick={onClose}
                         >
-                            Art
+                            Projecten
                         </NavLink>
                     </li>
 
                     <li className='drawer-navigation-link'>
                         <NavLink
-                            to='/collections'
+                            to='/qualifications'
                             className={({ isActive }) =>
                                 isActive
                                     ? "drawer-navigation-link current"
@@ -74,21 +74,7 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
                             }
                             onClick={onClose}
                         >
-                            Collections
-                        </NavLink>
-                    </li>
-
-                    <li className='drawer-navigation-link'>
-                        <NavLink
-                            to='/about'
-                            className={({ isActive }) =>
-                                isActive
-                                    ? "drawer-navigation-link current"
-                                    : "drawer-navigation-link"
-                            }
-                            onClick={onClose}
-                        >
-                            About
+                            Kwalificaties
                         </NavLink>
                     </li>
                 </ul>
