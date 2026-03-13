@@ -12,77 +12,93 @@
     --color-background-navigation-hover: #E0E0E0;
     --color-background-navigation-active: #D6D6D6;
 
-    --color-border-default: #EFEFEF;
-    --color-border-paragraph: #CFCFCF;
+    --color-border-quote: #CFCFCF;
+    --color-border-ui: #EFEFEF;
 
-    --color-icon-default: #3E4246;
-    --color-icon-secondary: #0E4893;
+    --color-icon-decorative: #0E4893;
+    --color-icon-control: #3E4246;
 
     --color-text-0: #000000;
     --color-text-1: #3E4246;
+    --color-text-2: #0E4893;
+    --color-text-3: #34435D;
 
     --color-text-logo: var(--color-text-0);
     --color-text-title: var(--color-text-0);
+    --color-text-subtitle: var(--color-text-1);
     --color-text-heading: var(--color-text-0);
-    --color-text-subheading: var(--color-text-1);
-    --color-text-body: var(--color-text-2);
+    --color-text-subheading: var(--color-text-0);
+    --color-text-quote: var(--color-text-1);
+    --color-text-section-title: var(--color-text-0);
+    --color-text-body: var(--color-text-0);
     --color-text-ui: var(--color-text-1);
+    --color-text-link-default: var(--color-text-1);
+    --color-text-link-hover: var(--color-text-2);
+    --color-text-link-active: var(--color-text-3);
 
-    --border-default: 1px solid var(--color-border-default);
-    --border-paragraph: 1px solid var(--color-border-paragraph);
+    --border-quote: 1px solid var(--color-border-quote);
+    --border-ui: 1px solid var(--color-border-ui);
 
     --border-radius-default: 5px;
 
+    --font-family-logo: 'Inter', sans-serif;
     --font-family-default: 'Inter', sans-serif;
 
-    --font-size-0: 1rem;
-    --font-size-1: 1.2rem;
-    /*
-    Add more font size variables later
-    --font-size-2: ;
-    --font-size-3: ;
-    */
+    --font-size-logo: 1.25rem;
+    --font-size-title: 5rem;
+    --font-size-subtitle: 2rem;
+    --font-size-heading: 2rem;
+    --font-size-subheading: 1.5rem;
+    --font-size-section-title: 1.25rem;
+    --font-size-body: 1rem;
+    --font-size-quote: 1rem;
+    --font-size-ui: 1rem;
+    --font-size-link: 1rem;
 
-    --font-size-logo: var(--font-size-1);
-    /*
-    Add more font size variables later
-    --font-size-title: var();
-    --font-size-heading: var();
-    --font-size-subheading: var();
-    */
-    --font-size-body: var(--font-size-0);
-    --font-size-ui: var(--font-size-0);
+    --font-weight-logo: 500;
+    --font-weight-title: 500;
+    --font-weight-heading: 500;
+    --font-weight-subheading: 500;
+    --font-weight-section-title: 500;
+    --font-weight-body: 400;
+    --font-weight-quote: 400;
+    --font-weight-ui: 400;
+    --font-weight-link: 400;
 
-    --font-weight-default: 400;
-    --font-weight-logo: 700;
-
-    --line-height-default: 1.2;
+    --line-height-default: 2;
 
     --height-navbar: 5rem;
     --height-drawer-navigation-item: 5rem;
-
     --width-navbar-item-default: 8rem;
     --width-navbar-item-mobile: 5rem;
 
-    --spacing-0: 0.25rem;
-    --spacing-1: 0.5rem;
-    --spacing-2: 0.75rem;
-    --spacing-3: 1rem;
-    --spacing-4: 1.25rem;
-    --spacing-5: 1.5rem;
-    --spacing-6: 1.75rem;
-    --spacing-7: 2rem;
-    --spacing-8: 5rem;
-    /* Add more spacing (padding) variables later */
+    /*
+    --spacing-control-vertical: 0.5rem;
+    --spacing-control-horizontal: 0.75rem;
+    */
+    --spacing-layout-horizontal: 1rem;
+    --spacing-heading-vertical: 2rem;
+    --spacing-section-title-vertical: 1rem;
+    --spacing-paragraph-vertical: 2rem;
+    --spacing-quote: 2rem;
+    --spacing-control: 1rem;
 
-    --spacing-control-vertical: var(--spacing-1);
-    --spacing-control-horizontal: var(--spacing-2);
-    --spacing-navbar-horizontal: var(--spacing-3);
-    --spacing-drawer-navigation-horizontal: var(--spacing-7);
+    --transition-duration: 0.25s;
 
-    --transition-background: background-color 0.2s ease-in-out;
-    --transition-transform: transform 0.2s ease-in-out;
-    --transition-opacity: opacity 0.2s ease-in-out;
+    --transition-background: background-color var(--transition-duration) ease-in-out;
+    --transition-color: color var(--transition-duration) ease-in-out;
+    --transition-opacity: opacity var(--transition-duration) ease-in-out;
+    --transition-transform: transform var(--transition-duration) ease-in-out;
+}
+
+::-moz-selection {
+  color: #FFFFFF;
+  background: #0E4893;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: #0E4893;
 }
 
 *,
@@ -97,21 +113,32 @@ body {
     color: var(--color-text-body);
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
-    font-weight: var(--font-weight-default);
+    font-weight: var(--font-weight-body);
     line-height: var(--line-height-default);
     margin: 0;
     padding: 0;
 }
 
 a {
-    color: var(--color-text-ui);
-    font-size: var(--font-size-0);
+    color: var(--color-text-link-default);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-link);
+    font-weight: var(--font-size-link);
     text-decoration: underline;
 }
 
 blockquote {
+    align-items: center;
+    border-left: var(--border-quote);
+    color: var(--color-text-quote);
+    display: flex;
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-quote);
+    font-style: italic;
+    font-weight: var(--font-weight-quote);
+    line-height: var(--line-height-default);
     margin: 0;
-    padding: 0;
+    padding: var(--spacing-quote);
 }
 
 button {
@@ -120,12 +147,28 @@ button {
     font-size: var(--font-size-0);
 }
 
-h1,
+h1 {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-heading);
+}
+
 h2,
 h3 {
-    font-weight: 500;
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-subheading);
+}
+
+p {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    line-height: var(--line-height-default);
+    margin: 0;
+    padding: var(--spacing-paragraph-vertical) 0;
 }
 
 .lucide {
-    color: var(--color-icon-default);
+    color: var(--color-icon-control);
 }

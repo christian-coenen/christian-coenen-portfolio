@@ -5,18 +5,18 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: var(--spacing-control);
     transition: var(--transition-background);
 }
 
 .hamburger-button:hover {
-    background: var(--color-background-navigation-hover);
+    background: var(--color-background-control-hover);
 }
 
 .hamburger-button:active {
-    background: var(--color-background-navigation-active);
+    background: var(--color-background-control-active);
 }
 
 .hamburger-button-icon {
-    color: var(--color-icon-default);
+    color: var(--color-icon-control);
 }

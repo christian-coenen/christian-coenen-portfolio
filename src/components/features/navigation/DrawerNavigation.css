@@ -10,7 +10,7 @@
 }
 
 .drawer-navigation-overlay {
-    background: var(--color-surface-1);
+    background: var(--color-surface-0);
     inset: 0;
     opacity: 0;
     position: absolute;
@@ -22,8 +22,8 @@
 }
 
 .drawer-navigation-panel {
-    background: var(--color-surface-1);
-    border-left: var(--border-default);
+    background: var(--color-surface-0);
+    border-left: var(--border-ui);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -41,12 +41,12 @@
 
 .drawer-navigation-close-panel {
     align-items: center;
-    background: var(--color-surface-1);
+    background: var(--color-surface-0);
     display: flex;
     flex-shrink: 0;
     height: var(--height-navbar);
     justify-content: flex-end;
-    padding: var(--spacing-4);
+    padding: 1rem;
     position: sticky;
     top: 0;
     width: 100%;
@@ -60,7 +60,7 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: var(--spacing-control);
     transition: var(--transition-background);
 }
 
@@ -74,7 +74,7 @@
 }
 
 .drawer-navigation-close-button-icon {
-    color: var(--color-icon-default);
+    color: var(--color-icon-control);
 }
 
 .drawer-navigation-list {
@@ -90,7 +90,6 @@
 .drawer-navigation-link {
     align-items: center;
     display: flex;
-    font-size: var(--font-size-ui);
     height: var(--height-drawer-navigation-item);
     justify-content: center;
     min-height: var(--height-drawer-navigation-item);
@@ -103,9 +102,12 @@
     align-items: center;
     color: var(--color-text-ui);
     display: flex;
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-ui);
+    font-weight: var(--font-weight-ui);
     height: 100%;
     justify-content: flex-start;
-    padding-left: var(--spacing-drawer-navigation-horizontal);
+    padding-left: 2rem;
     text-decoration: none;
     width: 100%;
 }
