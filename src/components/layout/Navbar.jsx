@@ -17,49 +17,43 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='navbar'>
-            <div className='navbar-inner'>
-                <Link to='/home' className='navbar-logo'>
+        <nav className="navbar">
+            <div className="navbar-inner">
+                <Link to="/home" className="navbar-logo">
                     <BrandLogo size={48} />
-                    <span className='navbar-logo-text'>Christian Coenen</span>
+                    <span className="navbar-logo-text">Christian Coenen</span>
                 </Link>
 
-                <div className='navbar-actions'>
-                    <div className='navbar-navigation'>
-                        <ul className='navbar-navigation-list'>
-                            <li className='navbar-navigation-link'>
+                <div className="navbar-actions">
+                    <div className="navbar-navigation">
+                        <ul className="navbar-navigation-list">
+                            <li className="navbar-navigation-link">
                                 <NavLink
-                                    to='/home'
+                                    to="/home"
                                     className={({ isActive }) =>
-                                        isActive
-                                            ? "navbar-navigation-link current"
-                                            : "navbar-navigation-link"
+                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Home
                                 </NavLink>
                             </li>
 
-                            <li className='navbar-navigation-link'>
+                            <li className="navbar-navigation-link">
                                 <NavLink
-                                    to='/projects'
+                                    to="/projects"
                                     className={({ isActive }) =>
-                                        isActive
-                                            ? "navbar-navigation-link current"
-                                            : "navbar-navigation-link"
+                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Projecten
                                 </NavLink>
                             </li>
 
-                            <li className='navbar-navigation-link'>
+                            <li className="navbar-navigation-link">
                                 <NavLink
-                                    to='/qualifications'
+                                    to="/qualifications"
                                     className={({ isActive }) =>
-                                        isActive
-                                            ? "navbar-navigation-link current"
-                                            : "navbar-navigation-link"
+                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Kwalificaties
@@ -67,7 +61,7 @@ const Navbar = () => {
                             </li>
                         </ul>
 
-                        <div className='navbar-hamburger-button'>
+                        <div className="navbar-hamburger-button">
                             <HamburgerButton
                                 isOpen={isDrawerNavigationOpen}
                                 onToggle={toggleDrawerNavigation}

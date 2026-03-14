@@ -18,31 +18,29 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
 
     return (
         <div className={`drawer-navigation ${isOpen ? 'is-open' : ''}`}>
-            <div className='drawer-navigation-overlay' onClick={onClose} />
+            <div className="drawer-navigation-overlay" onClick={onClose} />
 
-            <div className='drawer-navigation-panel'>
+            <div className="drawer-navigation-panel">
                 <div
-                    className='drawer-navigation-close-panel'
-                    
+                    className="drawer-navigation-close-panel"
+
                 >
                     <button
-                        type='button'
-                        className='drawer-navigation-close-button'
+                        type="button"
+                        className="drawer-navigation-close-button"
                         onClick={onClose}
-                        aria-label='Close drawer navigation'
+                        aria-label="Close drawer navigation"
                     >
-                        <X className='drawer-navigation-close-button-icon' />
+                        <X className="drawer-navigation-close-button-icon" />
                     </button>
                 </div>
 
-                <ul className='drawer-navigation-list'>
-                    <li className='drawer-navigation-link'>
+                <ul className="drawer-navigation-list">
+                    <li className="drawer-navigation-link">
                         <NavLink
-                            to='/home'
+                            to="/home"
                             className={({ isActive }) =>
-                                isActive
-                                    ? "drawer-navigation-link current"
-                                    : "drawer-navigation-link"
+                                `drawer-navigation-link ${isActive ? 'current' : ''}`
                             }
                             onClick={onClose}
                         >
@@ -50,13 +48,11 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
                         </NavLink>
                     </li>
 
-                    <li className='drawer-navigation-link'>
+                    <li className="drawer-navigation-link">
                         <NavLink
-                            to='/projects'
+                            to="/projects"
                             className={({ isActive }) =>
-                                isActive
-                                    ? "drawer-navigation-link current"
-                                    : "drawer-navigation-link"
+                                `drawer-navigation-link ${isActive ? 'current' : ''}`
                             }
                             onClick={onClose}
                         >
@@ -64,13 +60,11 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
                         </NavLink>
                     </li>
 
-                    <li className='drawer-navigation-link'>
+                    <li className="drawer-navigation-link">
                         <NavLink
-                            to='/qualifications'
+                            to="/qualifications"
                             className={({ isActive }) =>
-                                isActive
-                                    ? "drawer-navigation-link current"
-                                    : "drawer-navigation-link"
+                                `drawer-navigation-link ${isActive ? 'current' : ''}`
                             }
                             onClick={onClose}
                         >
