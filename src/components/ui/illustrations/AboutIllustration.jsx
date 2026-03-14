@@ -4,7 +4,7 @@ const AboutIllustration = ({ size = 320 }) => {
     return (
         <img
             src={ImageTemplate}
-            alt='Illustration template'
+            alt="Illustration template"
             width={size}
             height={size}
         />

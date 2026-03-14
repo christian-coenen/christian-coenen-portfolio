@@ -3,9 +3,9 @@ import Footer from './Footer'
 
 const PortfolioLayout = ({ children }) => {
     return (
-        <div className='portfolio-layout'>
+        <div className="portfolio-layout">
             <Navbar />
-            <main className='portfolio-layout-content'>
+            <main className="portfolio-layout-content">
                 {children}
             </main>
             <Footer />

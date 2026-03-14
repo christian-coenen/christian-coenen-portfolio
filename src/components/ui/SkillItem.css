@@ -8,7 +8,7 @@
 }
 
 .skill-content {
-    border-left: var(--border-default);
+    border-left: var(--border-ui);
     border-top: none;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,16 @@
 }
 
 .skill-title {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-subheading);
+    font-weight: var(--font-weight-subheading);
     width: 100%;
 }
 
 .skill-description {
-    line-height: 2;
+    line-height: var(--line-height-default);
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .skill-icon i {
-    color: var(--color-icon-secondary);
+    color: var(--color-icon-decorative);
     font-size: 8rem;
 }
 
@@ -58,7 +61,7 @@
 
     .skill-content {
         border-left: none;
-        border-top: var(--border-default);
+        border-top: var(--border-ui);
         width: 100%;
     }
 }

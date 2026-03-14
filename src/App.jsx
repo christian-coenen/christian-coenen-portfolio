@@ -6,8 +6,8 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Navigate to='home' replace />} />
-                <Route path='/home' element={<HomePage />} />
+                <Route path="/" element={<Navigate to="home" replace />} />
+                <Route path="/home" element={<HomePage />} />
             </Routes>
         </BrowserRouter>
   )

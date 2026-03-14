@@ -9,16 +9,6 @@ const HomePage = () => {
             <HeroSection />
             <AboutSection />
             <SkillsSection />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            The quick brown fox jumps over the lazy dog.
-
         </PortfolioLayout>
     )
 }

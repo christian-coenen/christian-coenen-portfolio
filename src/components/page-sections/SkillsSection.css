@@ -1,12 +1,13 @@
 .skills-section {
-    padding: 1rem;
+    background: var(--color-surface-0);
+    padding: var(--spacing-layout-horizontal);
 }
 
 .skills-header {
     font-family: var(--font-family-default);
-    font-size: 2rem;
-    font-weight: 500;
-    padding: 2rem 0rem;
+    font-size: var(--font-size-subheading);
+    font-weight: var(--font-weight-subheading);
+    padding: var(--spacing-heading-vertical) 0;
 }
 
 .skill-items {
