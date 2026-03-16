@@ -5,6 +5,12 @@ import './DrawerNavigation.css'
 
 const DrawerNavigation = ({ isOpen, onClose }) => {
     useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden'
+        } else {
+            document.body.style.overflow = ''
+        }
+
         const handleResize = () => {
             if (window.innerWidth >= 801 && isOpen) {
                 onClose()
@@ -14,6 +20,7 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
         window.addEventListener('resize', handleResize)
 
         return () => {
+            document.body.style.overflow = ''
             window.removeEventListener('resize', handleResize)
         }
     }, [isOpen, onClose])
