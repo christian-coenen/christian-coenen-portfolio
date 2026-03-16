@@ -1,6 +1,6 @@
 .about-section {
     background: var(--color-surface-0);
-    padding: var(--spacing-layout-horizontal);
+    padding: var(--spacing-layout);
 }
 
 .about-inner {
@@ -18,8 +18,8 @@
 
 .about-header {
     font-family: var(--font-family-default);
-    font-size: var(--font-size-heading);
-    font-weight: var(--font-weight-heading);
+    font-size: var(--font-size-subheading);
+    font-weight: var(--font-weight-subheading);
     padding: var(--spacing-heading-vertical) 0;
 }
 
@@ -60,22 +60,10 @@
     }
 }
 
-@media (max-width: 700px) {
-    .about-header {
-        font-size: 1.75rem;
-    }
-}
-
 @media (max-width: 400px) {
     .about-illustration img {
         height: 240px;
         width: 240px;
-    }
-}
-
-@media (max-width: 350px) {
-    .about-header {
-        font-size: 1.5rem;
     }
 }
 

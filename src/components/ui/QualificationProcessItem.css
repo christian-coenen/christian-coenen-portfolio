@@ -1,0 +1,38 @@
+.qualification-process-item {
+    border: var(--border-ui);
+    border-radius: var(--border-radius-default);
+    overflow: hidden;
+    transition: var(--transition-background);
+}
+
+.qualification-process-item:hover {
+    background: var(--color-background-navigation-hover);
+}
+
+.qualification-process-item:active {
+    background: var(--color-background-navigation-active);
+}
+
+.qualification-process-item a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.qualification-process-item-content {
+    display: grid;
+    gap: 1rem;
+}
+
+.qualification-process-item-title {
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.qualification-process-item-evidence-count {
+    align-items: center;
+    display: flex;
+    gap: 0.25rem;
+}

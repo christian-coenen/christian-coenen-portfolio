@@ -1,4 +1,4 @@
-import SkillItem from '../ui/SkillItem'
+import SkillItem from '../../ui/SkillItem'
 import './SkillsSection.css'
 
 const SkillsSection = () => {

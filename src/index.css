@@ -76,7 +76,7 @@
     --spacing-control-vertical: 0.5rem;
     --spacing-control-horizontal: 0.75rem;
     */
-    --spacing-layout-horizontal: 1rem;
+    --spacing-layout: 1rem;
     --spacing-heading-vertical: 2rem;
     --spacing-section-title-vertical: 1rem;
     --spacing-paragraph-vertical: 2rem;
@@ -156,7 +156,7 @@ h1 {
 h2,
 h3 {
     font-family: var(--font-family-default);
-    font-size: var(--font-size-heading);
+    font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
 }
 
