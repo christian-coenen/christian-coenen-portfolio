@@ -40,7 +40,7 @@ const DrawerNavigation = ({ isOpen, onClose }) => {
                 <ul className="drawer-navigation-list">
                     <li className="drawer-navigation-link">
                         <NavLink
-                            to="/home"
+                            to="/"
                             className={({ isActive }) =>
                                 `drawer-navigation-link ${isActive ? 'current' : ''}`
                             }
