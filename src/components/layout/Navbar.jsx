@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-inner">
-                <Link to="/home" className="navbar-logo">
+                <Link to="/" className="navbar-logo">
                     <BrandLogo size={48} />
                     <span className="navbar-logo-text">Christian Coenen</span>
                 </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
                         <ul className="navbar-navigation-list">
                             <li className="navbar-navigation-link">
                                 <NavLink
-                                    to="/home"
+                                    to="/F"
                                     className={({ isActive }) =>
                                         `drawer-navigation-link ${isActive ? 'current' : ''}`
                                     }
