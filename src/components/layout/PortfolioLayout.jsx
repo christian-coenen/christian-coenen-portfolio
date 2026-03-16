@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
+import './PortfolioLayout.css'
 
 const PortfolioLayout = ({ children }) => {
     return (

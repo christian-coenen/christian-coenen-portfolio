@@ -36,3 +36,14 @@
     display: flex;
     gap: 0.25rem;
 }
+
+.qualification-process-item-evidence-count-icon {
+    color: var(--color-icon-control);
+}
+
+.qualification-process-item-evidence-count-text {
+    color: var(--color-text-ui);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-ui);
+    font-weight: var(--font-weight-ui);
+}
