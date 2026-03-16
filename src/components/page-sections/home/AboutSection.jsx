@@ -1,4 +1,4 @@
-import AboutIllustration from '../ui/illustrations/AboutIllustration'
+import AboutIllustration from '../../ui/illustrations/AboutIllustration'
 import './AboutSection.css'
 
 const AboutSection = () => {
