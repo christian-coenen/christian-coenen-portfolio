@@ -29,7 +29,7 @@ const Navbar = () => {
                         <ul className="navbar-navigation-list">
                             <li className="navbar-navigation-link">
                                 <NavLink
-                                    to="/F"
+                                    to="/"
                                     className={({ isActive }) =>
                                         `drawer-navigation-link ${isActive ? 'current' : ''}`
                                     }

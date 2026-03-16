@@ -1,6 +1,6 @@
 .skills-section {
     background: var(--color-surface-0);
-    padding: var(--spacing-layout-horizontal);
+    padding: var(--spacing-layout);
 }
 
 .skills-header {
@@ -15,16 +15,4 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-}
-
-@media (max-width: 700px) {
-    .skills-header {
-        font-size: 1.75rem;
-    }
-}
-
-@media (max-width: 350px) {
-    .skills-header {
-        font-size: 1.5rem;
-    }
 }

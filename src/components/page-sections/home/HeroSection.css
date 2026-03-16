@@ -5,7 +5,7 @@
     height: calc(100svh - var(--height-navbar));
     justify-content: center;
     min-height: 25rem;
-    padding: var(--spacing-layout-horizontal);
+    padding: var(--spacing-layout);
 }
 
 .hero-inner {
@@ -18,8 +18,8 @@
 .hero-title {
     color: var(--color-text-title);
     font-family: var(--font-family-default);
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-title);
 }
 
 .hero-subtitle {

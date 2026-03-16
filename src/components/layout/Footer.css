@@ -1,6 +1,6 @@
 .footer {
     background: var(--color-surface-0);
-    padding: var(--spacing-layout-horizontal);
+    padding: var(--spacing-layout);
 }
 
 .footer-navigation {

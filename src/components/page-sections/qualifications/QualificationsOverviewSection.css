@@ -1,0 +1,16 @@
+.qualifications-overview-section {
+    background: var(--color-surface-0);
+    padding: var(--spacing-layout);
+}
+
+.qualifications-overview-inner {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 800px) {
+    .qualifications-overview-inner {
+        grid-template-columns: 1fr;
+    }
+}
