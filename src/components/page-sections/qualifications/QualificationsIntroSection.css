@@ -5,8 +5,9 @@
 
 .qualifcations-intro-header {
     font-family: var(--font-family-default);
-    font-size: var(--font-size-subheading);
-    font-weight: var(--font-weight-subheading);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-heading);
+    padding: var(--spacing-heading-vertical) 0;
 }
 
 qualifcations-intro-paragraph {
@@ -16,10 +17,4 @@ qualifcations-intro-paragraph {
     line-height: var(--line-height-default);
     margin: 0;
     padding: var(--spacing-paragraph-vertical) 0;
-}
-
-@media (max-width: 700px) {
-    .qualifcations-intro-header {
-        font-size: 1.25rem;
-    }
 }

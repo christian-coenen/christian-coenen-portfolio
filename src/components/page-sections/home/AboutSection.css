@@ -18,8 +18,8 @@
 
 .about-header {
     font-family: var(--font-family-default);
-    font-size: var(--font-size-subheading);
-    font-weight: var(--font-weight-subheading);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-heading);
     padding: var(--spacing-heading-vertical) 0;
 }
 
