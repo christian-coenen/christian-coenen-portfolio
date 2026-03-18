@@ -20,7 +20,7 @@ const QualificationProcessPage = () => {
 
     return (
         <PortfolioLayout>
-            <QualificationProcessIntroSection title={process.title} intro={process.intro} />
+            <QualificationProcessIntroSection title={process.title} description={process.description} />
             <QualificationProcessEvidenceSection evidence={process.evidence} />
         </PortfolioLayout>
     )
