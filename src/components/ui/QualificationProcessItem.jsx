@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { ClipboardCheck } from 'lucide-react'
-import './QualificationProcessItem.css'
+import './QualificationProcessitem.css'
 
 const QualificationProcessItem = ({ title, link, evidenceCount }) => {
     return (
