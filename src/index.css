@@ -56,6 +56,10 @@
     --font-size-ui: 1rem;
     --font-size-link: 1rem;
 
+    --font-size-heading-mobile: 1.75rem;
+    --font-size-subheading-mobile: 1.25rem;
+    --font-size-section-title-mobile: 1.125rem;
+
     --font-weight-logo: 500;
     --font-weight-title: 500;
     --font-weight-subtitle: 400;

@@ -70,3 +70,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 400px) {
+    .footer-section-title {
+        font-size: var(--font-size-section-title-mobile);
+    }
+}

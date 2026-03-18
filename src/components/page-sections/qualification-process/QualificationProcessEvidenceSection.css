@@ -29,3 +29,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 400px) {
+    .qualification-process-evidence-header {
+        font-size: var(--font-size-subheading-mobile)
+    }
+}
