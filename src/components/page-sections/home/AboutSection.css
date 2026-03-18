@@ -17,6 +17,7 @@
 }
 
 .about-header {
+    color: var(--color-text-heading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
@@ -38,6 +39,7 @@
 }
 
 .about-paragraph {
+    color: var(--color-text-body);
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
@@ -61,6 +63,10 @@
 }
 
 @media (max-width: 400px) {
+    .about-header {
+        font-size: var(--font-size-heading-mobile);
+    }
+
     .about-illustration img {
         height: 240px;
         width: 240px;

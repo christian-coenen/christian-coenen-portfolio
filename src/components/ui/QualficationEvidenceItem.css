@@ -14,6 +14,10 @@
 }
 
 .qualification-evidence-item a {
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
     display: block;
     text-decoration: none;
     padding: 1rem;
@@ -26,7 +30,7 @@
 }
 
 .qualification-evidence-item-icon {
-    color: #000000;
+    color: var(--color-icon-body);
 }
 
 .qualification-evidence-title {

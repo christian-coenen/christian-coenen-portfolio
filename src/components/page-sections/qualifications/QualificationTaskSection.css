@@ -1,5 +1,6 @@
 .qualification-task-section-title {
     border-bottom: var(--border-ui);
+    color: var(--color-text-section-title);
     display: flex;
     font-family: var(--font-family-default);
     font-size: var(--font-size-section-title);
@@ -15,4 +16,10 @@
     list-style: none;
     margin: 0;
     padding: 1rem 0 0 0;
+}
+
+@media (max-width: 400px) {
+    .qualification-task-section-title {
+        font-size: var(--font-size-section-title-mobile);
+    }
 }

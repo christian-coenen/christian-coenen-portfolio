@@ -3,18 +3,26 @@
     padding: var(--spacing-layout);
 }
 
-.qualifcations-intro-header {
+.qualifications-intro-header {
+    color: var(--color-text-heading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
     padding: var(--spacing-heading-vertical) 0;
 }
 
-qualifcations-intro-paragraph {
+qualifications-intro-paragraph {
+    color: var(--color-text-body);
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
     line-height: var(--line-height-default);
     margin: 0;
     padding: var(--spacing-paragraph-vertical) 0;
+}
+
+@media (max-width: 400px) {
+    .qualifications-intro-header {
+        font-size: var(--font-size-heading-mobile);
+    }
 }

@@ -17,13 +17,19 @@
 }
 
 .skill-title {
+    color: var(--color-text-subheading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
+    line-height: var(--line-height-default);
     width: 100%;
 }
 
 .skill-description {
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
     line-height: var(--line-height-default);
     margin: 0;
     padding: 0;
@@ -43,12 +49,6 @@
     font-size: 8rem;
 }
 
-@media (max-width: 700px) {
-    .skill-title {
-        font-size: 1.25rem;
-    }
-}
-
 @media (max-width: 600px) {
     .skill-item {
         flex: 0 0 auto;
@@ -63,5 +63,11 @@
         border-left: none;
         border-top: var(--border-ui);
         width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .skill-title {
+        font-size: var(--font-size-subheading-mobile);
     }
 }
