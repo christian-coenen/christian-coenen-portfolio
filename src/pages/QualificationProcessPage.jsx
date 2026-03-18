@@ -1,0 +1,29 @@
+import { useParams } from 'react-router-dom'
+import { qualificationProcesses } from '../data/qualificationProcesses'
+import PortfolioLayout from '../components/layout/PortfolioLayout'
+import QualificationProcessIntroSection from '../components/page-sections/qualification-process/QualificationProcessIntroSection'
+import QualificationProcessEvidenceSection from '../components/page-sections/qualification-process/QualificationProcessEvidenceSection'
+
+const QualificationProcessPage = () => {
+    const { processId } = useParams()
+
+    const process = qualificationProcesses[processId]
+
+    {/* Temporary "not found" message for work processes */}
+    if (!process) {
+        return (
+            <PortfolioLayout>
+                <div>Werkproces niet gevonden</div>
+            </PortfolioLayout>
+        )
+    }
+
+    return (
+        <PortfolioLayout>
+            <QualificationProcessIntroSection title={process.title} intro={process.intro} />
+            <QualificationProcessEvidenceSection evidence={process.evidence} />
+        </PortfolioLayout>
+    )
+}
+
+export default QualificationProcessPage

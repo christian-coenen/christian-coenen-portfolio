@@ -1,20 +1,29 @@
-.qualifications-intro-section {
+.qualification-process-evidence-section {
     background: var(--color-surface-0);
+    border-top: var(--border-ui);
     padding: var(--spacing-layout);
 }
 
-.qualifcations-intro-header {
+.qualification-process-evidence-header {
     font-family: var(--font-family-default);
-    font-size: var(--font-size-heading);
-    font-weight: var(--font-weight-heading);
+    font-size: var(--font-size-subheading);
+    font-weight: var(--font-weight-subheading);
     padding: var(--spacing-heading-vertical) 0;
 }
 
-qualifcations-intro-paragraph {
+.qualification-process-evidence-empty {
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
     line-height: var(--line-height-default);
     margin: 0;
     padding: var(--spacing-paragraph-vertical) 0;
+}
+
+.qualifications-process-evidence-list {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

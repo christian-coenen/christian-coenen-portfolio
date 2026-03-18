@@ -1,0 +1,9 @@
+.portfolio-layout {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-layout-content {
+    flex: 1;
+}

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
-import { File } from 'lucide-react'
-import './QualificationProcessItem.css'
+import { ClipboardCheck } from 'lucide-react'
+import './QualificationProcessitem.css'
 
 const QualificationProcessItem = ({ title, link, evidenceCount }) => {
     return (
@@ -12,10 +12,8 @@ const QualificationProcessItem = ({ title, link, evidenceCount }) => {
                     <span className="qualification-process-item-title">{title}</span>
 
                     <div className="qualification-process-item-evidence-count">
-                        <File 
-                        
-                        />
-                        <span>{evidenceCount}</span>
+                        <ClipboardCheck className="qualification-process-item-evidence-count-icon" />
+                        <span className="qualification-process-item-evidence-count-text">{evidenceCount}</span>
                     </div>
                 </div>
             </NavLink>

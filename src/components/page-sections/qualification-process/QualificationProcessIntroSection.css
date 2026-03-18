@@ -1,18 +1,11 @@
-.skills-section {
+.qualification-process-intro-section {
     background: var(--color-surface-0);
     padding: var(--spacing-layout);
 }
 
-.skills-header {
+.qualification-process-intro-header {
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
     padding: var(--spacing-heading-vertical) 0;
-}
-
-.skill-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
 }
