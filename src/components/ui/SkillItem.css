@@ -17,13 +17,19 @@
 }
 
 .skill-title {
+    color: var(--color-text-subheading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
+    line-height: var(--line-height-default);
     width: 100%;
 }
 
 .skill-description {
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
     line-height: var(--line-height-default);
     margin: 0;
     padding: 0;

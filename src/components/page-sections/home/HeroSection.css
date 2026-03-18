@@ -25,9 +25,9 @@
 .hero-subtitle {
     color: var(--color-text-subtitle);
     font-family: var(--font-family-default);
-    font-size: 2rem;
+    font-size: var(--font-size-subtitle);
     font-style: italic;
-    font-weight: 400;
+    font-weight: var(--font-weight-subtitle);
 }
 
 @media (max-width: 700px) {

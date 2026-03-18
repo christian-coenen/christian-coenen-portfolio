@@ -4,6 +4,7 @@
 }
 
 .skills-header {
+    color: var(--color-text-heading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);

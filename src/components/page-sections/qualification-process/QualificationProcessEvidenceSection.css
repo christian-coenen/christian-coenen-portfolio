@@ -5,6 +5,7 @@
 }
 
 .qualification-process-evidence-header {
+    color: var(--color-text-subheading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
@@ -12,6 +13,7 @@
 }
 
 .qualification-process-evidence-empty {
+    color: var(--color-body);
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);

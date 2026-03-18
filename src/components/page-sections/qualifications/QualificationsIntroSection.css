@@ -4,6 +4,7 @@
 }
 
 .qualifcations-intro-header {
+    color: var(--color-text-heading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
@@ -11,6 +12,7 @@
 }
 
 qualifcations-intro-paragraph {
+    color: var(--color-text-body);
     font-family: var(--font-family-default);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
