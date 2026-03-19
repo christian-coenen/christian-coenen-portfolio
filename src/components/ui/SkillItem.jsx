@@ -7,7 +7,7 @@ const SkillItem = ({ iconClass, title, description }) => {
                 <i className={iconClass}></i>
             </div>
 
-            <div className="skill-content">
+            <div className="skill-text">
                 <h3 className="skill-title">{title}</h3>
                 {description && <p className="skill-description">{description}</p>}
             </div>
