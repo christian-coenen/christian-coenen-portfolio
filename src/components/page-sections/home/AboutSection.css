@@ -6,7 +6,7 @@
 .about-inner {
     align-items: center;
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
     width: 100%;
 }
 
@@ -50,15 +50,30 @@
 
 .about-illustration {
     align-items: center;
+    border: var(--border-ui);
+    border-radius: 100%;
     display: flex;
     justify-content: center;
-    filter: brightness(75%);
+    overflow: hidden;
     z-index: 1;
 }
 
 @media (max-width: 1000px) {
     .about-inner {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-illustration {
+        display: flex;
+        flex: 1;
+    }
+
+    .about-illustration svg {
+        height: auto;
+        display: block;
+        width: 100%;
     }
 }
 
