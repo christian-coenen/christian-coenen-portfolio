@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import './ProjectItem.css'
 
-const ProjectItem = ({ title, description, image, link }) => {
+const ProjectItem = ({ title, image, link }) => {
     return (
         <li className="project-item">
             <NavLink
