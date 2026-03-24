@@ -26,12 +26,15 @@ export const projects = {
     "praktijk-heemskerk": {
         title: "Praktijk Heemskerk",
         description: "Beschrijving van het project...",
-        image: "/projects/project_template_img.png"
+        image: "/projects/project_template_img.png",
+        technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 
     "christian-coenen-portfolio": {
         title: "Christian Coenen Portfolio",
-        description: "Beschrijving van het project...",
-        image: "/projects/project_template_img.png"
+        description: `Dit is het project dat u voor zich ziet! De portfoliowebsite is ontworpen met een moderne en minimalistische huisstijl, met als primair doel het presenteren van mijn kwalificaties uit het kwalificatiedossier en mijn gerealiseerde projecten. Het project is parallel ontwikkeld naast de kunstwebsite "ARTIXIC", waarbij componenten zoals de navigatiebalk en vastgestelde codeconventies zijn hergebruikt om consistentie te waarborgen. De portfoliowebsite is gerealiseerd tijdens mijn stage bij Collabotics zodat ik concrete resultaten kan opleveren onder tijdsdruk.`,
+        image: "/projects/project-christian-coenen-portfolio.png",
+        link: "https://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.online",
+        technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 }

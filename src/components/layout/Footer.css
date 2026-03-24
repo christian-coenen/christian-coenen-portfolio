@@ -37,7 +37,7 @@
 }
 
 .footer-link {
-    color: var(--color-text-link-default);
+    color: var(--color-text-footer-link-default);
     font-family: var(--font-size-default);
     font-size: var(--font-size-link);
     font-weight: var(--font-weight-link);
@@ -46,11 +46,11 @@
 }
 
 .footer-link:hover {
-    color: var(--color-text-link-hover);
+    color: var(--color-text-footer-link-hover);
 }
 
 .footer-link:active {
-    color: var(--color-text-link-active);
+    color: var(--color-text-footer-link-active);
 }
 
 .footer-copyright {

@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom'
 import { projects } from '../data/projects.js'
-import PortfolioLayout from '../components/layout/PortfolioLayout'
-import ProjectDetailSection from '../components/page-sections/project-detail/ProjectDetailSection'
+import PortfolioLayout from '../components/layout/PortfolioLayout.jsx'
+import ProjectDetailSection from '../components/page-sections/project-detail/ProjectDetailSection.jsx'
 
-const ProjectPage = () => {
+const ProjectDetailPage = () => {
     const { projectId } = useParams()
 
     const project = projects[projectId]
@@ -19,9 +19,9 @@ const ProjectPage = () => {
 
     return (
         <PortfolioLayout>
-            <ProjectDetailSection title={project.title} description={project.description} />
+            <ProjectDetailSection title={project.title} description={project.description} image={project.image} link={project.link} technologies={project.technologies} />
         </PortfolioLayout>
     )
 }
 
-export default ProjectPage
+export default ProjectDetailPage
