@@ -7,7 +7,7 @@
     padding: 1rem;
 }
 
-.skill-content {
+.skill-text {
     border-left: var(--border-ui);
     border-top: none;
     display: flex;
@@ -59,7 +59,7 @@
         width: 100%;
     }
 
-    .skill-content {
+    .skill-text {
         border-left: none;
         border-top: var(--border-ui);
         width: 100%;

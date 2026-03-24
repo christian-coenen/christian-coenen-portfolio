@@ -1,0 +1,28 @@
+.projects-intro-section {
+    background: var(--color-surface-0);
+    padding: var(--spacing-layout);
+}
+
+.projects-intro-header {
+    color: var(--color-text-heading);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-heading);
+    padding: var(--spacing-heading-vertical) 0;
+}
+
+.projects-intro-paragraph {
+    color: var(--color-text-body);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    line-height: var(--line-height-default);
+    margin: 0;
+    padding: var(--spacing-paragraph-vertical) 0;
+}
+
+@media (max-width: 400px) {
+    .projects-intro-header {
+        font-size: var(--font-size-heading-mobile);
+    }
+}

@@ -17,7 +17,6 @@
 
     --color-icon-decorative: #0E4893;
     --color-icon-control: #3E4246;
-    --color-icon-body: #000000;
 
     --color-text-0: #000000;
     --color-text-1: #3E4246;
@@ -32,10 +31,16 @@
     --color-text-quote: var(--color-text-1);
     --color-text-section-title: var(--color-text-0);
     --color-text-body: var(--color-text-0);
+    --color-text-meta: var(--color-text-1);
     --color-text-ui: var(--color-text-1);
-    --color-text-link-default: var(--color-text-1);
-    --color-text-link-hover: var(--color-text-2);
+
+    --color-text-link-default: var(--color-text-2);
+    --color-text-link-hover: var(--color-text-1);
     --color-text-link-active: var(--color-text-3);
+
+    --color-text-footer-link-default: var(--color-text-1);
+    --color-text-footer-link-hover: var(--color-text-2);
+    --color-text-footer-link-active: var(--color-text-3);
 
     --border-quote: 1px solid var(--color-border-quote);
     --border-ui: 1px solid var(--color-border-ui);
@@ -98,13 +103,13 @@
 }
 
 ::-moz-selection {
-  color: #FFFFFF;
-  background: #0E4893;
+    color: #FFFFFF;
+    background: #0E4893;
 }
 
 ::selection {
-  color: #FFFFFF;
-  background: #0E4893;
+    color: #FFFFFF;
+    background: #0E4893;
 }
 
 *,
