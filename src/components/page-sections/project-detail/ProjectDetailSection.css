@@ -10,11 +10,14 @@
 }
 
 .project-detail-header {
+    border-bottom: var(--border-decorative);
     color: var(--color-text-heading);
+    display: inline-flex;
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
-    padding: var(--spacing-heading-vertical) 0;
+    margin: var(--spacing-heading-vertical) 0;
+    padding: 0;
 }
 
 .project-detail-aside {
@@ -77,8 +80,8 @@
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
     line-height: var(--line-height-default);
-    margin: 0;
-    padding: var(--spacing-heading-vertical) 0;
+    margin: var(--spacing-subheading-vertical) 0;
+    padding: 0;
     width: 100%;
 }
 
