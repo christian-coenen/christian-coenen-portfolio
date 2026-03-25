@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-.about-content {
+.about-text {
     display: flex;
     flex: 1;
     flex-direction: column;
