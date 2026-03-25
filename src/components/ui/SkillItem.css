@@ -23,6 +23,8 @@
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
     line-height: var(--line-height-default);
+    padding: var(--spacing-subheading-vertical) 0;
+    margin: 0;
     width: 100%;
 }
 

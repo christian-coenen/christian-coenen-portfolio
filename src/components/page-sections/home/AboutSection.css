@@ -11,17 +11,21 @@
 }
 
 .about-text {
+    align-items: flex-start;
     display: flex;
     flex: 1;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .about-header {
+    border-bottom: var(--border-decorative);
     color: var(--color-text-heading);
     font-family: var(--font-family-default);
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-heading);
-    padding: var(--spacing-heading-vertical) 0;
+    margin: var(--spacing-heading-vertical) 0;
+    padding: 0;
 }
 
 .about-quote {

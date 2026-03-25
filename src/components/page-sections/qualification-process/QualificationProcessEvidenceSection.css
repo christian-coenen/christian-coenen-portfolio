@@ -10,6 +10,7 @@
     font-size: var(--font-size-subheading);
     font-weight: var(--font-weight-subheading);
     padding: var(--spacing-heading-vertical) 0;
+    margin: 0;
 }
 
 .qualification-process-evidence-empty {
