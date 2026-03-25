@@ -43,6 +43,7 @@
     font-weight: var(--font-weight-link);
     text-decoration: none;
     transition: var( --transition-color);
+    word-break: break-all;
 }
 
 .footer-link:hover {
