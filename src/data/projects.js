@@ -1,8 +1,10 @@
 export const projects = {
     "de-recycle-fabriek": {
         title: "De Recycle Fabriek",
-        description: "Een zeer uitgebreide beschrijving over het project, wat mogelijk de layout kan kwetsen... dus daarom gaat de beschrijving nóg verder zodat ik de prachtige layout compleet kan verknallen.",
-        image: "/projects/project_template_img.png"
+        description: `De Recycle Fabriek is een interactieve werkplaats waar leerlingen, docenten en bezoekers alles over het recyclen van plastic afval kunnen leren, in samenwerking met basisscholen. Tijdens mijn stage bij The Challenge Zone werkte ik met een projectgroep aan een toegankelijke applicatie waarmee bezoekers producten kunnen scannen of de barcode invoeren, informatie over plasticsoorten kunnen lezen en nieuwe producten kunnen indienen. Beheerders kunnen producten beheren, toevoegen en verwijderen. Het project vervangt een eerdere applicatie van studenten van VISTA College.`,
+        image: "/projects/project-de-recycle-fabriek.png",
+        link: "https://scan.derecyclefabriek.nl/scan",
+        technologies: ["React", "JavaScript", "CSS", "PHP", "Vite"]
     },
 
     "labor-arbeidsreintegratie": {
