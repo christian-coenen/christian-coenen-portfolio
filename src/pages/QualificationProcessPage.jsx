@@ -3,18 +3,16 @@ import { qualificationProcesses } from '../data/qualificationProcesses'
 import PortfolioLayout from '../components/layout/PortfolioLayout'
 import QualificationProcessIntroSection from '../components/page-sections/qualification-process/QualificationProcessIntroSection'
 import QualificationProcessEvidenceSection from '../components/page-sections/qualification-process/QualificationProcessEvidenceSection'
+import NotFoundPage from './NotFoundPage'
 
 const QualificationProcessPage = () => {
     const { processId } = useParams()
 
     const process = qualificationProcesses[processId]
 
-    {/* Temporary "not found" message for work processes */}
     if (!process) {
         return (
-            <PortfolioLayout>
-                <div>Werkproces niet gevonden</div>
-            </PortfolioLayout>
+            <NotFoundPage />
         )
     }
 

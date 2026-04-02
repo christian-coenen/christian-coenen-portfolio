@@ -63,6 +63,7 @@
     --font-size-ui: 1rem;
     --font-size-link: 1rem;
 
+    --font-size-title-mobile: 4.75rem;
     --font-size-heading-mobile: 1.75rem;
     --font-size-subheading-mobile: 1.25rem;
     --font-size-section-title-mobile: 1.125rem;
@@ -95,6 +96,7 @@
     --spacing-section-title-vertical: 1rem;
     --spacing-paragraph-vertical: 2rem;
     --spacing-quote: 2rem;
+    --spacing-link-vertical: 1rem;
     --spacing-control: 1rem;
 
     --transition-duration: 0.25s;

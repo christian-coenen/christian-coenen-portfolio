@@ -55,7 +55,7 @@
     font-size: var(--font-size-link);
     font-weight: var(--font-size-link);
     gap: 0.5rem;
-    margin: 1rem 0;
+    margin: var(--spacing-link-vertical) 0;
     overflow-wrap: break-word;
     text-decoration: none;
     transition: var(--transition-color);
