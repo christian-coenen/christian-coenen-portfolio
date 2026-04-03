@@ -1,7 +1,7 @@
 export const projects = {
     "de-recycle-fabriek": {
         title: "De Recycle Fabriek",
-        description: `De Recycle Fabriek is een interactieve werkplaats waar leerlingen, docenten en bezoekers alles over het recyclen van plastic afval kunnen leren, in samenwerking met basisscholen. Tijdens mijn stage bij The Challenge Zone werkte ik met een projectgroep aan een toegankelijke applicatie waarmee bezoekers producten kunnen scannen of de barcode invoeren, informatie over plasticsoorten kunnen lezen en nieuwe producten kunnen indienen. Beheerders kunnen producten beheren, toevoegen en verwijderen. Het project vervangt een eerdere applicatie van studenten van VISTA College.`,
+        description: `De Recycle Fabriek is een interactieve werkplaats waar leerlingen, docenten en bezoekers alles over het recyclen van plastic afval kunnen leren, in samenwerking met basisscholen. Tijdens mijn stage bij The Challenge Zone werkte ik met een projectgroep aan een toegankelijke webapplicatie waarmee bezoekers producten kunnen scannen of de barcode invoeren, informatie over plasticsoorten kunnen lezen en nieuwe producten kunnen indienen. Beheerders kunnen producten beheren, toevoegen en verwijderen. Het project vervangt een eerdere applicatie van studenten van VISTA College.`,
         image: "/projects/project-de-recycle-fabriek.png",
         link: "https://scan.derecyclefabriek.nl/scan",
         technologies: ["React", "JavaScript", "CSS", "PHP", "Vite"]
@@ -9,8 +9,9 @@ export const projects = {
 
     "labor-arbeidsreintegratie": {
         title: "LABOR Arbeidsreintegratie",
-        description: "Beschrijving van het project...",
-        image: "/projects/project_template_img.png"
+        description: `LABOR Arbeidsreintegratie is een gespecialiseerd bureau dat zich richt op het begeleiden van mensen naar duurzame deelname aan de arbeidsmarkt en het uitvoeren van loopbaanonderzoeken. Om het proces te versnellen en handmatig kopieer- en plakwerk te vermijden, is tijdens mijn stage bij The Challenge Zone door stagiairs een desktopapplicatie ontwikkeld. Nadat meerdere projectleden waren vertrokken, ben ik samen met een medestagiair aangesloten om het project voort te zetten. Mijn bijdrage lag in het verbeteren van de documentatie en het verhogen van de codekwaliteit, zodat de applicatie beter onderhoudbaar en overdraagbaar werd aan volgende projectleden.`,
+        image: "/projects/project-labor-arbeidsreintegratie.png",
+        technologies: ["Python", "Tkinter", "OpenPyXL"]
     },
 
     "artixic": {
