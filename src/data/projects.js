@@ -16,8 +16,9 @@ export const projects = {
 
     "artixic": {
         title: "ARTIXIC",
-        description: "Beschrijving van het project...",
-        image: "/projects/project_template_img.png"
+        description: `ARTIXIC is een moderne, minimalistische webgebaseerde kunstgalerie, ontworpen als een rustige en museumachtige omgeving voor het tentoonstellen van digitale kunstwerken. Het platform stelt mij in staat om eigen werk te publiceren en gestructureerd te presenteren. Het project wordt parallel ontwikkeld naast deze portfoliowebsite, waarbij componenten zoals de navigatiebalk en codeconventies zijn hergebruikt om consistentie te waarborgen, met prioriteit op de verdere ontwikkeling van de portfoliowebsite. De applicatie bevindt zich momenteel nog in ontwikkeling.`,
+        image: "/projects/project-artixic.png",
+        technologies: ["React", "JavaScript", "CSS", "Vite", "Supabase"]
     },
 
     "het-hoofburo": {
