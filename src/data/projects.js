@@ -23,8 +23,10 @@ export const projects = {
 
     "het-hoofburo": {
         title: "Het Hoofdburo",
-        description: "Een zeer uitgebreide beschrijving over het project, wat mogelijk de layout kan kwetsen... dus daarom gaat de beschrijving nóg verder zodat ik de prachtige layout compleet kan verknallen.",
-        image: "/projects/project_template_img.png"
+        description: `Het Hoofdburo is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Praktijk Heemskerk en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele (web)applicaties binnen een korte termijn.`,
+        image: "/projects/project-het-hoofdburo.png",
+        link: "https://hethoofdburo.nl",
+        technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 
     "praktijk-heemskerk": {
