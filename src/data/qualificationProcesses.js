@@ -5,18 +5,8 @@ export const qualificationProcesses = {
         description: "Beschrijving B1-K1-W1.",
         evidence: [
             {
-                title: "Tekstdocument bewijsstuk 1",
-                link: "/evidence/evidence_example.txt",
-                type: "default"
-            },
-            {
-                title: "Tekstdocument bewijsstuk 2",
-                link: "/evidence/evidence_example.txt",
-                type: "default"
-            },
-            {
-                title: "Tekstdocument bewijsstuk 3",
-                link: "/evidence/evidence_example.txt",
+                title: "Tekstdocument plaatshouder",
+                link: "/evidence/evidence-placeholder.txt",
                 type: "default"
             },
         ]
