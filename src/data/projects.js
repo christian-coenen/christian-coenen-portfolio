@@ -31,8 +31,9 @@ export const projects = {
 
     "praktijk-heemskerk": {
         title: "Praktijk Heemskerk",
-        description: "Beschrijving van het project...",
-        image: "/projects/project_template_img.png",
+        description: `Praktijk Heemskerk is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Het Hoofdburo en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele websites binnen een korte termijn.`,
+        image: "/projects/project-praktijk-heemskerk.png",
+        link: "https://praktijkheemskerk.online",
         technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 
@@ -40,7 +41,6 @@ export const projects = {
         title: "Christian Coenen Portfolio",
         description: `Dit is het project dat u voor zich ziet! De portfoliowebsite is ontworpen met een moderne en minimalistische huisstijl, met als primair doel het presenteren van mijn kwalificaties uit het kwalificatiedossier en mijn gerealiseerde projecten. Het project is parallel ontwikkeld naast de kunstwebsite "ARTIXIC", waarbij componenten zoals de navigatiebalk en vastgestelde codeconventies zijn hergebruikt om consistentie te waarborgen. De portfoliowebsite is gerealiseerd tijdens mijn stage bij Collabotics zodat ik concrete resultaten kan opleveren onder tijdsdruk.`,
         image: "/projects/project-christian-coenen-portfolio.png",
-        link: "https://llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch.online",
         technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 }
