@@ -43,4 +43,11 @@ export const projects = {
         image: "/projects/project-christian-coenen-portfolio.png",
         technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
+
+    "collabotics-intern-project": {
+        title: "Collabotics intern project",
+        description: `Tijdens mijn stage bij Collabotics heb ik samen met een medestagiair gewerkt aan een intern project. Het doel was om resultaten van website- en e-mailtests op Internet.nl, een platform dat websites, e-mail en internetverbindingen controleert op moderne en betrouwbare internetstandaarden, te verwerken en op te slaan in een tekstbestand. Het project gaf ons inzicht in hoe Collabotics applicaties ontwikkelt met C#, .NET en XPath, waarbij gebruik werd gemaakt van de Collabotics Automation Assistant om XML-views te genereren voor het programma.`,
+        image: "/projects/project-collabotics-intern-project.png",
+        technologies: ["C#", ".NET", "XPath"]
+    }
 }
