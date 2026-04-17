@@ -18,8 +18,9 @@ const QualficationEvidenceItem = ({ title, link, type }) => {
     return (
         <li className="qualification-evidence-item">
             <a
-                href={link}
-                download
+                href={link} 
+                target="_blank"
+                rel="noopener noreferrer"
             >
                 <div className="qualification-evidence-content">
                     {icon}
