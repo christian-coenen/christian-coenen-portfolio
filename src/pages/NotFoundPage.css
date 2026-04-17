@@ -45,7 +45,21 @@
 }
 
 .not-found-link {
+    color: var(--color-text-link-default);
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-link);
+    font-weight: var(--font-size-link);
+    text-decoration: underline;
+    transition: var( --transition-color);
     margin: var(--spacing-link-vertical) 0;
+}
+
+.not-found-link:hover {
+    color: var(--color-text-link-hover);
+}
+
+.not-found-link:active {
+    color: var(--color-text-link-active)
 }
 
 .project-detail-aside-link:hover {
