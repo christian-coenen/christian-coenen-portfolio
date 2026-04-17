@@ -1,5 +1,5 @@
 import { File, FileArchive, FileImage, FileVideoCamera, FileVolume, FileSpreadsheet, FileText } from 'lucide-react'
-import './QualficationEvidenceitem.css'
+import './QualficationEvidenceItem.css'
 
 
 const fileIcons = {
