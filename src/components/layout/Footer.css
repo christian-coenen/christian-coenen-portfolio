@@ -1,6 +1,13 @@
 .footer {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
+}
+
+.footer-inner {
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .footer-navigation {

@@ -1,5 +1,7 @@
 .project-detail-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
 }
 
@@ -7,6 +9,8 @@
     display: grid;
     gap: 5rem;
     grid-template-columns: 2fr 1fr;
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .project-detail-header {
@@ -34,7 +38,7 @@
 
 .project-detail-aside-image {
     border: var(--border-ui);
-    border-radius: var(--border-radius-default);
+    border-radius: var(--border-radius-ui);
     height: 25rem;
     max-width: 40rem;
     min-width: 30rem;
