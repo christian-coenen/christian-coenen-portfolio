@@ -38,7 +38,7 @@
 
 .project-detail-aside-image {
     border: var(--border-ui);
-    border-radius: var(--border-radius-default);
+    border-radius: var(--border-radius-ui);
     height: 25rem;
     max-width: 40rem;
     min-width: 30rem;

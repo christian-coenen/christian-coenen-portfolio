@@ -2,7 +2,7 @@
     align-items: stretch;
     background: var(--color-surface-0);
     border: var(--border-ui);
-    border-radius: var(--border-radius-default);
+    border-radius: var(--border-radius-ui);
     display: flex;
     gap: 1rem;
     height: 30rem;

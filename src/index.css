@@ -47,7 +47,7 @@
     --border-quote: 1px solid var(--color-border-quote);
     --border-ui: 1px solid var(--color-border-ui);
 
-    --border-radius-default: 5px;
+    --border-radius-ui: 5px;
 
     --font-family-logo: 'Inter', sans-serif;
     --font-family-default: 'Inter', sans-serif;
