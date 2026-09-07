@@ -1,5 +1,7 @@
 .about-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
 }
 
@@ -7,6 +9,8 @@
     align-items: center;
     display: flex;
     gap: 5rem;
+    justify-content: center;
+    max-width: var(--max-width-content);
     width: 100%;
 }
 

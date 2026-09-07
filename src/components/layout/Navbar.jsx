@@ -31,7 +31,7 @@ const Navbar = () => {
                                 <NavLink
                                     to="/"
                                     className={({ isActive }) =>
-                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
+                                        `navbar-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Home
@@ -42,7 +42,7 @@ const Navbar = () => {
                                 <NavLink
                                     to="/projects"
                                     className={({ isActive }) =>
-                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
+                                        `navbar-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Projecten
@@ -53,7 +53,7 @@ const Navbar = () => {
                                 <NavLink
                                     to="/qualifications"
                                     className={({ isActive }) =>
-                                        `drawer-navigation-link ${isActive ? 'current' : ''}`
+                                        `navbar-navigation-link ${isActive ? 'current' : ''}`
                                     }
                                 >
                                     Kwalificaties

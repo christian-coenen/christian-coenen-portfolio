@@ -1,6 +1,13 @@
 .projects-intro-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
+}
+
+.projects-intro-inner {
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .projects-intro-header {

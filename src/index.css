@@ -90,6 +90,8 @@
     --spacing-control-vertical: 0.5rem;
     --spacing-control-horizontal: 0.75rem;
     */
+    --max-width-content: 1980px;
+
     --spacing-layout: 1rem;
     --spacing-heading-vertical: 2rem;
     --spacing-subheading-vertical: 1rem;

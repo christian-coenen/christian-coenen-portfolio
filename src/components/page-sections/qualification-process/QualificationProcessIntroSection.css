@@ -1,6 +1,13 @@
 .qualification-process-intro-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
+}
+
+.qualification-process-intro-inner {
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .qualification-process-intro-header {

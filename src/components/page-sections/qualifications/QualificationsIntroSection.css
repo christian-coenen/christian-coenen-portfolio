@@ -1,6 +1,13 @@
 .qualifications-intro-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
+}
+
+.qualifications-intro-inner {
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .qualifications-intro-header {

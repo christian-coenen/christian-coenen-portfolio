@@ -1,7 +1,14 @@
 .qualification-process-evidence-section {
     background: var(--color-surface-0);
     border-top: var(--border-ui);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
+}
+
+.qualification-process-evidence-inner {
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .qualification-process-evidence-header {

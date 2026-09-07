@@ -1,6 +1,17 @@
 .skills-section {
     background: var(--color-surface-0);
+    display: flex;
     padding: var(--spacing-layout);
+    justify-content: center;
+}
+
+.skills-inner {
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 .skills-header {

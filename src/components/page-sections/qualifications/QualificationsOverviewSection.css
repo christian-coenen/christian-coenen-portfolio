@@ -1,5 +1,7 @@
 .qualifications-overview-section {
     background: var(--color-surface-0);
+    display: flex;
+    justify-content: center;
     padding: var(--spacing-layout);
 }
 
@@ -7,6 +9,8 @@
     display: grid;
     gap: 5rem;
     grid-template-columns: 1fr 1fr;
+    max-width: var(--max-width-content);
+    width: 100%;
 }
 
 @media (max-width: 800px) {
