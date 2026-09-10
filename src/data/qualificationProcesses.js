@@ -5,7 +5,7 @@ export const qualificationProcesses = {
         description: `De beginnend beroepsbeoefenaar stemt met opdrachtgever en betrokkenen af wat er ontwikkeld moet worden en binnen welke termijn. Hij/zij verzamelt eisen, wensen en specificaties en vertaalt deze naar concrete doelen en een haalbare planning. Tijdens het ontwikkelproces bewaakt hij/zij de voortgang, houdt taken bij en communiceert tijdig over risicos of afwijkingen in planning en doelen.`,
         evidence: [
             {
-                title: "Behoefteanalyse - De Recycle Fabriek 1.2.1",
+                title: "Behoefteanalyse De Recycle Fabriek",
                 mediaType: "documents",
                 file: "Behoefteanalyse - De Recycle Fabriek 1.2.1.pdf",
                 type: "document",
@@ -15,6 +15,18 @@ export const qualificationProcesses = {
                 mediaType: "documents",
                 file: "Behoefteanalyse LABOR Arbeidsintegratie Automatisering.pdf",
                 type: "document",
+            },
+            {
+                title: "Behoefteanalyse Collabotics website",
+                mediaType: "documents",
+                file: "Behoefteanalyse Collabotics website.pdf",
+                type: "docment",
+            },
+            {
+                title: "Bevestiging behoefteanalyse Collabotics website",
+                mediaType: "images",
+                file: "Bevestiging behoefteanalyse Collabotics website.png",
+                type: "image",
             },
             {
                 title: "Dagelijkse stand-up Collabotics 24 juni",
@@ -27,6 +39,12 @@ export const qualificationProcesses = {
                 mediaType: "videos",
                 file: "Dagelijkse stand-up Collabotics 25 juni.mp4",
                 type: "video",
+            },
+            {
+                title: "Geluidsopsname intakegesprek Collabotics website",
+                mediaType: "audio",
+                file: "Geluidsopsname intakegesprek Collabotics website.m4a",
+                type: "audio",
             },
             {
                 title: "Toelichting bij BPV eindgesprek C. Coenen - bewaken voortgang",
@@ -215,6 +233,9 @@ export const qualificationProcesses = {
                 mediaType: "documents",
                 file: "Reflectieverslag van mijn stage bij Collabotics.pdf",
                 type: "document",
+            },
+            {
+                title: "Reflectieverslagen "
             }
         ]
     }
