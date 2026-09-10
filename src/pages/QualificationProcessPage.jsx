@@ -7,6 +7,13 @@ import QualificationProcessIntroSection from '../components/page-sections/qualif
 import QualificationProcessEvidenceSection from '../components/page-sections/qualification-process/QualificationProcessEvidenceSection'
 import NotFoundPage from './NotFoundPage'
 
+const normalizeFilename = (filename) =>
+    filename
+        .normalize('NFC')
+        .replace(/\u00A0/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+
 const QualificationProcessPage = () => {
     const { processId } = useParams()
 
@@ -45,7 +52,9 @@ const QualificationProcessPage = () => {
     const evidence = process.evidence
         .map((item) => {
             const mediaFile = media[item.mediaType]?.find(
-                (file) => file.name === item.file
+                (file) =>
+                    normalizeFilename(file.name) ===
+                    normalizeFilename(item.file)
             )
 
             if (!mediaFile) {
@@ -67,7 +76,9 @@ const QualificationProcessPage = () => {
                 description={process.description}
             />
 
-            <QualificationProcessEvidenceSection evidence={evidence} />
+            <QualificationProcessEvidenceSection
+                evidence={evidence}
+            />
         </PortfolioLayout>
     )
 }
