@@ -6,17 +6,20 @@ const ProjectsOverviewSection = () => {
     return (
         <section className="projects-overview-section">
             <div className="projects-overview-inner">
-                <ul className="projects-overview-list">
-                    {Object.entries(projects).reverse().map(([key, project]) => (
+                <ol className="projects-overview-list">
+                    {Object.entries(projects).reverse().map(([key, project], i) => (
                         <ProjectItem
                             key={key}
+                            index={i}
+                            category={project.category}
                             title={project.title}
+                            year={project.year}
+                            technologies={project.technologies}
+                            link={project.link}
                             description={project.description}
-                            image={project.image}
-                            link={`/projects/${key}`}
                         />
                     ))}
-                </ul>
+                </ol>
             </div>
         </section>
     )

@@ -90,7 +90,7 @@
     --spacing-control-vertical: 0.5rem;
     --spacing-control-horizontal: 0.75rem;
     */
-    --max-width-content: 1980px;
+    --max-width-content: 1440px;
 
     --spacing-layout: 1rem;
     --spacing-heading-vertical: 2rem;
@@ -111,12 +111,12 @@
 
 ::-moz-selection {
     color: #FFFFFF;
-    background: #0E4893;
+    background: #3A77C7;
 }
 
 ::selection {
     color: #FFFFFF;
-    background: #0E4893;
+    background: #3A77C7;
 }
 
 *,

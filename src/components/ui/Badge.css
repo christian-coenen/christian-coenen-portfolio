@@ -1,0 +1,26 @@
+.badge {
+    align-items: center;
+    border-radius: 80px;
+    display: flex;
+    font-family: var(--font-family-default);
+    font-size: 0.75rem;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 15%;
+    
+    text-align: center;
+    width: max-content;
+}
+
+.badge-gray {
+    background: #EFEFEF;
+    color: var(--color-text-1);
+    padding: 0.125rem 0.75rem;
+}
+
+.badge-blue {
+    background: #0E4893;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0.125rem 1rem;
+}
