@@ -1,0 +1,1 @@
+export const MEDIA_API_URL = 'https://r2-media-api.christian-coenen-media.workers.dev/media'
