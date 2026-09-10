@@ -1,53 +1,60 @@
 export const projects = {
     "de-recycle-fabriek": {
+        category: "Stage",
         title: "De Recycle Fabriek",
-        description: `De Recycle Fabriek is een interactieve werkplaats waar leerlingen, docenten en bezoekers alles over het recyclen van plastic afval kunnen leren, in samenwerking met basisscholen. Tijdens mijn stage bij The Challenge Zone werkte ik met een projectgroep aan een toegankelijke webapplicatie waarmee bezoekers producten kunnen scannen of de barcode invoeren, informatie over plasticsoorten kunnen lezen en nieuwe producten kunnen indienen. Beheerders kunnen producten beheren, toevoegen en verwijderen. Het project vervangt een eerdere applicatie van studenten van VISTA College.`,
-        image: "/projects/project-de-recycle-fabriek.png",
+        year: "2025",
+        technologies: ["React", "JavaScript", "CSS", "PHP", "Vite"],
         link: "https://scan.derecyclefabriek.nl/scan",
-        technologies: ["React", "JavaScript", "CSS", "PHP", "Vite"]
+        description: `De Recycle Fabriek is een interactieve werkplaats waar leerlingen, docenten en bezoekers alles over het recyclen van plastic afval kunnen leren, in samenwerking met basisscholen. Tijdens mijn stage bij The Challenge Zone werkte ik met een projectgroep aan een toegankelijke webapplicatie waarmee bezoekers producten kunnen scannen of de barcode invoeren, informatie over plasticsoorten kunnen lezen en nieuwe producten kunnen indienen. Beheerders kunnen producten beheren, toevoegen en verwijderen. Het project vervangt een eerdere applicatie van studenten van VISTA College.`,
     },
 
     "labor-arbeidsreintegratie": {
+        category: "Stage",
         title: "LABOR Arbeidsreintegratie",
+        year: "2026",
+        technologies: ["Python", "Tkinter", "OpenPyXL"],
         description: `LABOR Arbeidsreintegratie is een gespecialiseerd bureau dat zich richt op het begeleiden van mensen naar duurzame deelname aan de arbeidsmarkt en het uitvoeren van loopbaanonderzoeken. Om het proces te versnellen en handmatig kopieer- en plakwerk te vermijden, is tijdens mijn stage bij The Challenge Zone door stagiairs een desktopapplicatie ontwikkeld. Nadat meerdere projectleden waren vertrokken, ben ik samen met een medestagiair aangesloten om het project voort te zetten. Mijn bijdrage lag in het verbeteren van de documentatie en het verhogen van de codekwaliteit, zodat de applicatie beter onderhoudbaar en overdraagbaar werd aan volgende projectleden.`,
-        image: "/projects/project-labor-arbeidsreintegratie.png",
-        technologies: ["Python", "Tkinter", "OpenPyXL"]
     },
 
     "artixic": {
+        category: "Persoonlijk",
         title: "ARTIXIC",
+        year: "2026",
+        technologies: ["React", "JavaScript", "CSS", "Vite", "Supabase"],
         description: `ARTIXIC is een moderne, minimalistische webgebaseerde kunstgalerie, ontworpen als een rustige en museumachtige omgeving voor het tentoonstellen van digitale kunstwerken. Het platform stelt mij in staat om eigen werk te publiceren en gestructureerd te presenteren. Het project wordt parallel ontwikkeld naast deze portfoliowebsite, waarbij componenten zoals de navigatiebalk en codeconventies zijn hergebruikt om consistentie te waarborgen, met prioriteit op de verdere ontwikkeling van de portfoliowebsite. De applicatie bevindt zich momenteel nog in ontwikkeling.`,
-        image: "/projects/project-artixic.png",
-        technologies: ["React", "JavaScript", "CSS", "Vite", "Supabase"]
     },
 
     "het-hoofburo": {
+        category: "Stage",
         title: "Het Hoofdburo",
-        description: `Het Hoofdburo is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Praktijk Heemskerk en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele (web)applicaties binnen een korte termijn.`,
-        image: "/projects/project-het-hoofdburo.png",
+        year: "2026",
+        technologies: ["React", "JavaScript", "CSS", "Vite"],
         link: "https://hethoofdburo.nl",
-        technologies: ["React", "JavaScript", "CSS", "Vite"]
+        description: `Het Hoofdburo is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Praktijk Heemskerk en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele (web)applicaties binnen een korte termijn.`,
     },
 
     "praktijk-heemskerk": {
+        category: "Stage",
         title: "Praktijk Heemskerk",
-        description: `Praktijk Heemskerk is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Het Hoofdburo en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele websites binnen een korte termijn.`,
-        image: "/projects/project-praktijk-heemskerk.png",
+        year: "2026",
+        technologies: ["React", "JavaScript", "CSS", "Vite"],
         link: "https://praktijkheemskerk.online",
-        technologies: ["React", "JavaScript", "CSS", "Vite"]
+        description: `Praktijk Heemskerk is een therapiepraktijk met een lichaamsgerichte en systemische benadering. De praktijk is gevestigd in hetzelfde pand als Het Hoofdburo en werkt nauw samen als twee zelfstandige praktijken met een gedeelde visie en werkwijze. Tijdens mijn stage bij Collabotics heb ik, samen met een medestagiair, parallel voor beide praktijken een website ontwikkeld ter representatie van hun diensten. De projecten dienden als een praktische oefening in werken onder tijdsdruk en het opleveren van functionele websites binnen een korte termijn.`,
     },
 
     "christian-coenen-portfolio": {
+        category: "Stage",
         title: "Christian Coenen Portfolio",
+        year: "2026",
+        technologies: ["React", "JavaScript", "CSS", "Vite"],
         description: `Dit is het project dat u voor zich ziet! De portfoliowebsite is ontworpen met een moderne en minimalistische huisstijl, met als primair doel het presenteren van mijn kwalificaties uit het kwalificatiedossier en mijn gerealiseerde projecten. Het project is parallel ontwikkeld naast de kunstwebsite "ARTIXIC", waarbij componenten zoals de navigatiebalk en vastgestelde codeconventies zijn hergebruikt om consistentie te waarborgen. De portfoliowebsite is gerealiseerd tijdens mijn stage bij Collabotics zodat ik concrete resultaten kan opleveren onder tijdsdruk.`,
-        image: "/projects/project-christian-coenen-portfolio.png",
-        technologies: ["React", "JavaScript", "CSS", "Vite"]
     },
 
     "collabotics-intern-project": {
+        category: "Stage",
         title: "Collabotics intern project",
+        year: "2026",
+        technologies: ["C#", ".NET", "XPath"],
         description: `Tijdens mijn stage bij Collabotics heb ik samen met een medestagiair gewerkt aan een intern project. Het doel was om resultaten van website- en e-mailtests op Internet.nl, een platform dat websites, e-mail en internetverbindingen controleert op moderne en betrouwbare internetstandaarden, te verwerken en op te slaan in een tekstbestand. Het project gaf ons inzicht in hoe Collabotics applicaties ontwikkelt met C#, .NET en XPath, waarbij gebruik werd gemaakt van de Collabotics Automation Assistant om XML-views te genereren voor het programma.`,
-        image: "/projects/project-collabotics-intern-project.png",
-        technologies: ["C#", ".NET", "XPath"]
     }
 }
