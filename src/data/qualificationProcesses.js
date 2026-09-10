@@ -20,7 +20,7 @@ export const qualificationProcesses = {
                 title: "Behoefteanalyse Collabotics website",
                 mediaType: "documents",
                 file: "Behoefteanalyse Collabotics website.pdf",
-                type: "docment",
+                type: "document",
             },
             {
                 title: "Bevestiging behoefteanalyse Collabotics website",
@@ -235,8 +235,11 @@ export const qualificationProcesses = {
                 type: "document",
             },
             {
-                title: "Reflectieverslagen "
-            }
+                title: "Reflectieverslagen stage bij Collabotics e-mail reactie",
+                mediaType: "images",
+                file: "Reflectieverslagen stage bij Collabotics e-mail reactie.png",
+                type: "image",
+            },
         ]
     }
 }
