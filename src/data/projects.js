@@ -56,5 +56,22 @@ export const projects = {
         year: "2026",
         technologies: ["C#", ".NET", "XPath"],
         description: `Tijdens mijn stage bij Collabotics heb ik samen met een medestagiair gewerkt aan een intern project. Het doel was om resultaten van website- en e-mailtests op Internet.nl, een platform dat websites, e-mail en internetverbindingen controleert op moderne en betrouwbare internetstandaarden, te verwerken en op te slaan in een tekstbestand. Het project gaf ons inzicht in hoe Collabotics applicaties ontwikkelt met C#, .NET en XPath, waarbij gebruik werd gemaakt van de Collabotics Automation Assistant om XML-views te genereren voor het programma.`,
-    }
+    },
+
+    "pro-light-pdf-automatisering": { 
+        category: "stage",
+        title: "Pro-Light PDF-automatisering",
+        year: "2026",
+        technologies: ["C#", ".NET", "XPath"],
+        description: `Pro-Light is een bedrijf dat verlichting installeert. Het project was al enige tijd in ontwikkeling bij Collabotics voordat ik samen met een medestagiair aansloot. Mijn bijdrage bestond voornamelijk uit het opzetten van unit tests voor de verschillende leveranciers en het ontwikkelen van meerdere PDF-lezers voor Pro-Light.`,
+    },
+
+    "collabotics-website": {
+        category: "stage",
+        title: "Collabotics website",
+        year: "2026",
+        link: "https://collabotics.com",
+        technologies: ["React", "TypeScript", "Tailwind", "Next.js"],
+        description: `Tijdens mijn stage bij Collabotics heb ik samen met een medestagiair de bestaande website volledig vernieuwd. De website bestond uit één pagina en bood onvoldoende informatie over de organisatie, producten, oplossingen en toepassingen. Binnen het project waren wij verantwoordelijk voor het ontwerpen en ontwikkelen van een nieuwe website die Collabotics beter vertegenwoordigt en bezoekers een duidelijker beeld geeft van de organisatie en haar dienstverlening.`,
+    },
 }
