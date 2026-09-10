@@ -90,6 +90,7 @@
     overflow-wrap: break-word;
     text-decoration: none;
     transition: var(--transition-color);
+    width: max-content;
 }
 
 .project-link:hover {
